@@ -43,6 +43,15 @@ html {
     background-blend-mode: darken;
 }
 
+#preloader{
+    background: #000000 url(img/igif.gif) no-repeat center center; 
+    height: 100vh;
+    background-size: 3%;  
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+} 
+
 .container h1{
     position: absolute;
     top: 30%;
