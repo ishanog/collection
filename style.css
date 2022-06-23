@@ -43,6 +43,17 @@ html {
     background-blend-mode: darken;
 }
 
+.container h1{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
 .home {
     background: rgb(0, 0, 0) url('./2416004.jpg');
     background-size: cover;
