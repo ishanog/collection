@@ -38,13 +38,13 @@ html {
 }
 
 .navbar {
-    background: #00FFFF url('img/cyan-color.png');
+    background: #00FFFF url('./cyan-color.png');
     background-size: cover;
     background-blend-mode: darken;
 }
 
 .home {
-    background: rgb(0, 0, 0) url('img/2416004.jpg');
+    background: rgb(0, 0, 0) url('./2416004.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -141,14 +141,14 @@ p.body-3 {
 }
 
 .home-2 {
-    background: #FFFFFF url('img/j.jpg');
+    background: #FFFFFF url('./j.jpg');
     background-size: cover;
     background-blend-mode: darken;
     margin: 0;
 }
 
 .home-3 {
-    background: #FFFFFF url('img/k.jpg');
+    background: #FFFFFF url('./k.jpg');
     background-size: cover;
     background-blend-mode: darken;
     margin: 0;
