@@ -12,6 +12,8 @@
 </head>
 
 <body>
+        <div id="preloader"></div>
+    
     <nav class="navbar h-nav-resp">
         <ul class="nav-list v-class-resp">
             <li> <a href="#home">Home</a></li>
@@ -113,7 +115,24 @@
             </div>
         </div>
     </section>
-    <script src="./resp.js"></script>
+    <script>
+
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none"
+        })
+
+
+
+    </script>
+
+    <script>
+        let time = document.getElementById("current-time");
+        setInterval(() => {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        }, 1000)
+    </script>
 </body>
 
 </html>
